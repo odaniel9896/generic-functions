@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  },
+  "name": "generic-functions",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/sample.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
