@@ -34,3 +34,11 @@ export const readHtmlFile = (
     }
   });
 };
+
+export const getActualDate = () =>
+  new Date()
+    .toISOString()
+    .replace(
+      /^(?<year>\d+)-(?<month>\d+)-(?<day>\d+)T.*$/,
+      "$<year>-$<month>-$<day>"
+    );
