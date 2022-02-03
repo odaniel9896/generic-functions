@@ -1,1 +1,1 @@
-# generic-functions
+#Pacote para NODEJS em desenvolvimento.
